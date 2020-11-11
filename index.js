@@ -107,7 +107,7 @@ class ChromeCacheFile {
 
 class ChromeCacheReader {
   constructor(options={}) {
-    this.options = Object.assign(options, DEFAULT_OPTIONS)
+    this.options = Object.assign({}, DEFAULT_OPTIONS, options)
     this.knownFilenames = {}
     this.updating = false
     this.queueUpdate = false
