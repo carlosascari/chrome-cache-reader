@@ -4,7 +4,7 @@
   "description": "Read cached files stored by chrome or chromium",
   "main": "index.js",
   "dependencies": {
-    "level": "^4.0.0"
+    "level": ">=4.0.0"
   },
   "devDependencies": {},
   "scripts": {
