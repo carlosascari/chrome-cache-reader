@@ -6,8 +6,6 @@ This module will allow you to retrieve cached files by their url. For example,
 when you navigate to google.com, the google logo is downloaded and cached so that 
 it is rendered.
 
-![Copy url](https://my.mixtape.moe/yrcdwb.png)
-
 You can right click on the image and copy the image address and use that as the 
 argument for `ChromeCacheReader::get()` to get a `ChromeCacheFile` instance that
 holds the cached file's **filename**, **url**, **content** & http response **headers**.
