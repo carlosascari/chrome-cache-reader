@@ -1,6 +1,6 @@
 {
   "name": "chrome-cache-reader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read cached files stored by chrome or chromium",
   "main": "index.js",
   "dependencies": {
